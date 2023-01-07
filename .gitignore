@@ -1,0 +1,57 @@
+# ignore everything in the "themes" directory #
+###############################################
+wp-content/themes/*
+## except
+!wp-content/themes/affinger
+!wp-content/themes/affinger-child
+
+# Node artifact files #
+#######################
+node_modules/
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Applications #
+################
+*.app
+*.exe
+*.war
+
+# Large media files #
+#####################
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.pdf
+
+# Backup files #
+################
+*_BAK*
